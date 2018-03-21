@@ -53,6 +53,15 @@ h3 {
     margin: 10px;
 }
 
+.btn-red {
+    background-color: #48B8B2;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
 a:hover {
   text-decoration: underline;
 }
