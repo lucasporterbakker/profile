@@ -69,6 +69,13 @@ a {
   border: 2px solid #cccccc;
 }
 
+#company-pic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #cccccc;
+}
+
 
 .img-circle {
   border-radius: 50%;
