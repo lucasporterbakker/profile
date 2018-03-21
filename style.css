@@ -99,8 +99,12 @@ a {
 }
 
 #name-margin {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 30px;
+}
+
+#company-heading {
+  margin-top: 30px;
 }
 
 .list-inline > li {
