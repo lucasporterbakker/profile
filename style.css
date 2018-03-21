@@ -52,8 +52,13 @@ h3 {
     margin: 10px;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 a {
   text-decoration: none;
+  color:
 }
 
 #avatar {
@@ -87,6 +92,7 @@ a {
 
 .list-inline > li {
   display: inline-block;
+  font-size: 20px;
   padding: 0px 20px;
 }
 
