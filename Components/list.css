@@ -1,0 +1,81 @@
+.product {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 3px;
+  transition: all 0.15s ease;
+  margin: 10px 0;
+}
+
+.product-body {
+  flex: 1 1 auto;
+}
+
+.product-body h3 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 0;
+}
+
+.product-body p {
+  font-weight: lighter;
+  color: #999999;
+  margin-bottom: 0;
+}
+
+.product-image {
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 150px;
+}
+
+.product-upvote {
+  padding-right: 20px;
+  text-align: center;
+  transition: all 0.15s ease;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.product-count {
+  margin: 2px 0 0;
+}
+
+.product-controls {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+
+.product-controls a {
+  padding: 0 20px;
+  font-size: 17px;
+  color: #E6E6E6;
+}
+
+.product-controls a:hover {
+  color: #D3473C !important
+}
+
+.product-controls-hidden a {
+  color: transparent;
+  font-size: 15px;
+  transition: all 0.15s ease;
+  border-color: transparent;
+}
+
+.product:hover {
+  background: #f7f7fa;
+  cursor: pointer;
+}
+
+.product-upvote:hover {
+  color: #5898f1;
+  cursor: pointer;
+}
+
+.product:hover .product-upvote { transform: scale(1.2) }
+.product:hover .product-controls-hidden a { color: #E6E6E6 }
+.product-upvote:hover .product-arrow { border-bottom: 9px solid #5898f1 }
